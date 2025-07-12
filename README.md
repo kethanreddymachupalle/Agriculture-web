@@ -1,12 +1,19 @@
-# React + Vite
+🌿 AgriInfo — Smart Agriculture Web Application 🌿
+A modern, fully responsive agriculture web application built with React.js, CSS3, and component-based architecture. This platform helps farmers and agricultural enthusiasts with practical tools and guides for better, sustainable farming.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Features:
+✅ Responsive Navigation Bar with mobile-friendly hamburger menu
 
-Currently, two official plugins are available:
+✅ Home Page with clean, modern card layout for easy navigation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Fertilizer Calculator: Estimate fertilizer quantity based on selected crop and land area
 
-## Expanding the ESLint configuration
+✅ Crop Practice Guide: Select a crop and get detailed cultivation practices (soil type, water needs, season, harvest time)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Organic Farming Suggestions: Replace chemical fertilizers with natural alternatives, along with how to use them, when to use, extra benefits, effectiveness, and suitable crops
+
+✅ Help Page: Contact options including Call, Email, and Report buttons
+
+✅ Sign Up / Login Page: Clean form switching between login and signup modes
+
+✅ Fully Mobile & Tablet Responsive Design

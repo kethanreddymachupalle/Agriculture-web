@@ -1,0 +1,81 @@
+const cropData = {
+  Wheat: {
+    soil: "Loamy or clay loam soil",
+    water: "400-500 mm rainfall",
+    season: "Rabi (Nov-Mar)",
+    fertilizer: "100 kg N, 50 kg P, 50 kg K per hectare",
+    harvest: "120-150 days after sowing",
+  },
+  Rice: {
+    soil: "Clay loam soil with good water retention",
+    water: "1200-1500 mm rainfall",
+    season: "Kharif (Jun-Nov)",
+    fertilizer: "120 kg N, 60 kg P, 40 kg K per hectare",
+    harvest: "110-140 days after transplanting",
+  },
+  Corn: {
+    soil: "Well-drained sandy loam soil",
+    water: "500-800 mm rainfall",
+    season: "Both Kharif & Rabi",
+    fertilizer: "80 kg N, 50 kg P, 50 kg K per hectare",
+    harvest: "90-120 days after sowing",
+  },
+  Cotton: {
+    soil: "Black soil or well-drained loam",
+    water: "700-1300 mm rainfall",
+    season: "Kharif (Jun-Oct)",
+    fertilizer: "75 kg N, 50 kg P, 50 kg K per hectare",
+    harvest: "150-180 days after sowing",
+  },
+  Groundnut: {
+    soil: "Sandy loam with good drainage",
+    water: "500-1000 mm rainfall",
+    season: "Kharif & Rabi",
+    fertilizer: "20 kg N, 40 kg P, 40 kg K per hectare",
+    harvest: "105-120 days after sowing",
+  },
+  Onion: {
+    soil: "Fertile loam, well-drained",
+    water: "350-550 mm rainfall",
+    season: "Rabi & Summer",
+    fertilizer: "50 kg N, 50 kg P, 50 kg K per hectare",
+    harvest: "90-120 days after transplanting",
+  },
+  Banana: {
+    soil: "Rich, deep, well-drained loamy soil",
+    water: "1700-2200 mm rainfall",
+    season: "Year-round",
+    fertilizer: "200 kg N, 60 kg P, 200 kg K per hectare",
+    harvest: "11-14 months after planting",
+  },
+  Mango: {
+    soil: "Well-drained loamy soil",
+    water: "750-2500 mm rainfall",
+    season: "Plant in June-July",
+    fertilizer: "100 kg FYM, 500 g N, 250 g P, 500 g K per tree/year",
+    harvest: "3-5 years after planting",
+  },
+  Carrot: {
+    soil: "Loose, well-drained sandy loam",
+    water: "300-600 mm rainfall",
+    season: "Rabi (Oct-Feb)",
+    fertilizer: "50 kg N, 40 kg P, 40 kg K per hectare",
+    harvest: "90-120 days after sowing",
+  },
+  Vegetables: {
+    soil: "Fertile loam with organic matter",
+    water: "300-1200 mm rainfall (crop-specific)",
+    season: "Depends on crop",
+    fertilizer: "50-120 kg N, 40-100 kg P, 50-120 kg K per hectare",
+    harvest: "30-180 days depending on type",
+  },
+  "Leafy Greens": {
+    soil: "Loamy or sandy loam with good drainage",
+    water: "350-800 mm rainfall",
+    season: "Year-round in mild climates",
+    fertilizer: "25 kg N, 20 kg P, 20 kg K per hectare",
+    harvest: "30-45 days after sowing",
+  },
+};
+
+export default cropData;

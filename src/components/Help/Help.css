@@ -1,0 +1,62 @@
+.help-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  border: 2px solid #116530;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+.help-container h1 {
+  color: #116530;
+  margin-bottom: 15px;
+}
+
+.help-container p {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 16px;
+}
+
+.help-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.help-button {
+  background-color: #116530;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.help-button:hover {
+  background-color: #0e4a24;
+}
+
+@media (max-width: 768px) {
+  .help-container {
+    width: auto;
+    padding: 20px;
+  }
+
+  .help-buttons {
+    flex-direction: column;
+  }
+
+  .help-button {
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+  }
+}

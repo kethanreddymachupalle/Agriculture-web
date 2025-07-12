@@ -1,0 +1,23 @@
+.contact {
+  background-color: #116530;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  margin-top: 200px;
+  bottom: 0;
+
+}
+
+.contact h2{
+  margin-bottom: 5px;
+}
+
+.contact p{
+  margin-bottom: 5px;
+}
+
+@media (max-width: 850px){
+  .contact {
+    margin-top: 50px;
+  }
+}

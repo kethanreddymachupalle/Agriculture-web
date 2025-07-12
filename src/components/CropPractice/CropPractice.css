@@ -1,0 +1,65 @@
+.practice-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  border: 2px solid #116530;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.practice-container h1 {
+  color: #116530;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #116530;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #116530;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.crop-details {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.crop-details h2 {
+  color: #116530;
+  margin-bottom: 15px;
+}
+
+.crop-details p {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .practice-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .form-group select {
+    font-size: 14px;
+  }
+
+  .crop-details p {
+    font-size: 14px;
+  }
+}
